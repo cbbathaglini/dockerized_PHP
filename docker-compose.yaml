@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  php:
+    image: php:8.1.18-apache-buster
+    container_name: php-8-1-18
+    ports:
+      - 9002:80
+    volumes:
+      - ./site:/var/www/html
+      - ./docker/php/conf.d/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+      - ./docker/php/conf.d/error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini
+    depends_on:
+      - mariadb_service
+
+  mariadb_service:
+    image: mariadb:10.2
+    ports:
+      - 3307:3306
+    environment:
+      #MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: 1
+      MARIADB_ROOT_PASSWORD: password
+      MARIADB_DATABASE: databasename
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    restart: always
+    ports:
+      - 9003:80
+    environment:
+      - PMA_ARBITRARY=1
+

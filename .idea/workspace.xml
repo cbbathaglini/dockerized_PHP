@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7976018-bd8f-4c3a-b096-365c49e842cf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2WSu8mn447eRiawfWeCx6z5jTzK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yaml" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dockerized_PHP\site\public_html" />
+      <recent name="C:\xampp\htdocs\dockerized_PHP" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Rodar" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7976018-bd8f-4c3a-b096-365c49e842cf" name="Default Changelist" comment="" />
+      <created>1696738146428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696738146428</updated>
+      <workItem from="1696738147900" duration="159000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1506" y="181" width="801" height="581" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1696738307795">
+      <screen x="-1920" y="7" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="181" width="801" height="581" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1696738307795" />
+    <state x="-1122" y="406" key="DockerComposeFileDialog" timestamp="1696738289880">
+      <screen x="-1920" y="7" width="1920" height="1040" />
+    </state>
+    <state x="-1122" y="406" key="DockerComposeFileDialog/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1696738289880" />
+    <state x="-1180" y="293" key="FileChooserDialogImpl" timestamp="1696738288784">
+      <screen x="-1920" y="7" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="293" key="FileChooserDialogImpl/0.0.1280.680/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1696738288784" />
+  </component>
+</project>
